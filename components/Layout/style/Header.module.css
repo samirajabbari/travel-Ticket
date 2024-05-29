@@ -34,9 +34,13 @@
   color: #3498db;
   font-weight: 500;
 }
-@media screen and (min-width: 1124) {
+/* @media screen and (max-width: 800px) {
   .header {
-    display: flex;
     flex-direction: column;
+  }
+} */
+@media screen and (max-width: 486px) {
+  .header h2 {
+    display: none
   }
 }

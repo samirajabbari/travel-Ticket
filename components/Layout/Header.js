@@ -5,6 +5,9 @@ import toFarsiNumber from "../../utils/persianNumber";
 import Menu from "../Template/Menu";
 function Header() {
   const route = useRouter();
+  const homeHandler=()=>{
+    route.push('/')
+  }
   return (
     <>
       <div className={styles.subheader}>
@@ -23,8 +26,8 @@ function Header() {
       </div>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <div>
-            <img src="/Icons/logo.png" alt="724Logo" />
+          <div >
+              <img src="/Icons/logo.png" alt="724Logo" onClick={homeHandler} />
           </div>
           <h2>آسانترین راه رزرو و خرید بلیط اتوبوس</h2>
         </div>

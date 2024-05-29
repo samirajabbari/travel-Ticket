@@ -3,7 +3,7 @@
   height: 40rem;
   align-items: center;
   background-color: #eeeeee;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 5rem;
 }
 .left img {
@@ -16,7 +16,7 @@
   .left img {
     display: none;
   }
-  .container{
+  .container {
     justify-content: center;
   }
 }
