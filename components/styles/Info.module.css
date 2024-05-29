@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 40rem;
+  align-items: center;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.left img{
+  display: flex;
+  align-items: center;
+justify-content: center;
+  width: 35rem;
+}

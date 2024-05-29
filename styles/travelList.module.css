@@ -1,0 +1,75 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100rem;
+  background-color: #3498db;
+  overflow-y: scroll;
+}
+.ListBox {
+  display: flex;
+  width: 90%;
+  margin: 1rem;
+}
+.imageBox {
+  display: flex;
+  width: 20%;
+  background-color: white;
+  border-radius: 0.5rem;
+  align-items: center;
+  border-left: 1px dashed #3498db;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.imageBox img {
+  width: 10rem;
+}
+.infoBox {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.infoBox span {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.infoBox p {
+  display: flex;
+  text-align: center;
+  align-items: start;
+}
+.businfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.icon {
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+  color: #4d4c4c;
+}
+.infoBox button {
+  margin-top: 2rem;
+  width: 7rem;
+  height: 2rem;
+  border: 1px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  font-family: "YekanBakh";
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0.3rem;
+}
+.infoBox button:hover {
+  background-color: #18c5ff;
+  border-color: #18c5ff;
+}
+.cached {
+  margin-left: 3rem;
+}

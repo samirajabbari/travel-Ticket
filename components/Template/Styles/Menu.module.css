@@ -1,0 +1,8 @@
+.link {
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+}
+.link span:hover {
+  color: #3498db;
+}
