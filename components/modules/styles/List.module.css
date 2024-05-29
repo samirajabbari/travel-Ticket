@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   height: 45rem;
-  background-color: #3498db;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   justify-content: center;
   overflow-y: scroll;
 }
@@ -31,7 +31,7 @@
   width: 80%;
   background-color: white;
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .infoBox span {
   text-align: center;
@@ -73,4 +73,39 @@
 }
 .cached {
   margin-left: 3rem;
+}
+.payaane {
+  color: #3498db;
+}
+.line {
+  color: #cca3c0;
+}
+@media screen and (max-width: 950px) {
+  .List{
+    height: fit-content;
+    overflow-y: scroll;
+  }
+  .imageBox img {
+    width: 8rem;
+  }
+  .infoBox {
+    flex-direction: column;
+  }
+  .cached {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .imageBox img {
+    width: 6rem;
+  }
+  .line {
+    display: none;
+  }
+}
+@media screen and (max-width: 569px) {
+  .imageBox img {
+    width: 5rem;
+  }
+ 
 }

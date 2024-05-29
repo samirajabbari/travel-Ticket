@@ -6,3 +6,13 @@
   height: 2rem;
   /* margin-top: 2rem; */
 }
+@media screen and (max-width: 850px) {
+  .footer {
+    height: 4rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    text-align: center;
+  }
+}

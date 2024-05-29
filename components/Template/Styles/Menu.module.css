@@ -6,3 +6,10 @@
 .link span:hover {
   color: #3498db;
 }
+@media screen and (max-width: 1080px) {
+  .link {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+}

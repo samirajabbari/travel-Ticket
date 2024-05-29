@@ -21,6 +21,7 @@
   padding: 0 5rem;
   justify-content: space-between;
   box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.12);
+  flex-wrap: wrap;
 }
 .header img {
   width: 10rem;
@@ -32,4 +33,10 @@
 .header h2 {
   color: #3498db;
   font-weight: 500;
+}
+@media screen and (min-width: 1124) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -6,9 +6,17 @@
   justify-content: space-between;
   padding: 5rem;
 }
-.left img{
+.left img {
   display: flex;
   align-items: center;
-justify-content: center;
+  justify-content: center;
   width: 35rem;
+}
+@media screen and (max-width: 1089px) {
+  .left img {
+    display: none;
+  }
+  .container{
+    justify-content: center;
+  }
 }

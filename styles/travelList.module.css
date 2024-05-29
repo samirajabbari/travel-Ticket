@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   height: 100rem;
-  background-color: #3498db;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   overflow-y: scroll;
 }
 .ListBox {
@@ -72,4 +72,35 @@
 }
 .cached {
   margin-left: 3rem;
+}
+.payaane {
+  color: #3498db;
+}
+.line {
+  color: #cca3c0;
+}
+@media screen and (max-width: 950px) {
+  .imageBox img {
+    width: 8rem;
+  }
+  .infoBox {
+    flex-direction: column;
+  }
+  .cached {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .imageBox img {
+    width: 6rem;
+  }
+  .line {
+    display: none;
+  }
+}
+@media screen and (max-width: 569px) {
+  .imageBox img {
+    width: 5rem;
+  }
+ 
 }

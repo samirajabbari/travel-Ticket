@@ -55,7 +55,13 @@ function Safar() {
               <div className={styles.businfo}>
                 <p>
                   <FontAwesomeIcon icon={faBus} className={styles.icon} />{" "}
-                  <span>پایانه - {item.destinationCity}</span>
+                  <span>{item.originCity}</span>
+                  <span className={styles.payaane}>(پایانه مرکزی)</span>
+                  <span className={styles.line}>
+                    {" "}
+                    • - - - - - - - - - - - - - - - - •
+                  </span>
+                  <span>{item.destinationCity}</span>
                 </p>
                 <p>
                   <FontAwesomeIcon
